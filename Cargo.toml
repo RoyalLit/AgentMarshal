@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "crates/orchestrator-core",
+    "crates/orchestrator-cli",
+    "apps/desktop/src-tauri",
+]
+resolver = "2"

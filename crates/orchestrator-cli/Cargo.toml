@@ -1,0 +1,18 @@
+[package]
+name = "orchestrator-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["AgentMarshal Contributors"]
+description = "CLI binary for AgentMarshal multi-agent orchestrator"
+
+[[bin]]
+name = "agentmarshal"
+path = "src/main.rs"
+
+[dependencies]
+orchestrator-core = { path = "../orchestrator-core" }
+clap = { version = "4.5", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+uuid = { version = "1.8", features = ["v4"] }
+rusqlite = { version = "0.31.0", features = ["bundled"] }
