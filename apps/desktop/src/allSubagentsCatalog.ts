@@ -2,166 +2,6 @@ import { Persona } from "./types";
 
 export const allSubagentsCatalog: Persona[] = [
   {
-    "id": "agentic-identity-trust",
-    "name": "Agentic Identity & Trust Architect",
-    "category": "Engineering",
-    "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they're authorized to do, and what they actually did.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "agentic-identity-trust.md"
-  },
-  {
-    "id": "agents-orchestrator",
-    "name": "Agents Orchestrator",
-    "category": "Engineering",
-    "description": "Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "agents-orchestrator.md"
-  },
-  {
-    "id": "automation-governance-architect",
-    "name": "Automation Governance Architect",
-    "category": "Product & Management",
-    "description": "Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "automation-governance-architect.md"
-  },
-  {
-    "id": "business-strategist",
-    "name": "Business Strategist",
-    "category": "Product & Management",
-    "description": "Senior management consulting specialist for competitive analysis, market entry strategy, business model design, growth planning, organizational strategy, and strategic decision-making \u2014 translating complex market dynamics into clear, actionable strategies that create sustainable competitive advantage",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "business-strategist.md"
-  },
-  {
-    "id": "change-management-consultant",
-    "name": "Change Management Consultant",
-    "category": "Product & Management",
-    "description": "Expert change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration \u2014 managing resistance, building adoption, and ensuring changes stick long after go-live",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "change-management-consultant.md"
-  },
-  {
-    "id": "chief-financial-officer",
-    "name": "Chief Financial Officer",
-    "category": "Product & Management",
-    "description": "Strategic finance executive who governs capital allocation, treasury operations, financial planning, M&A finance, investor relations, and board reporting \u2014 translating financial complexity into clear decisions that drive business performance and stakeholder confidence.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "chief-financial-officer.md"
-  },
-  {
-    "id": "customer-service",
-    "name": "Customer Service",
-    "category": "Product & Management",
-    "description": "Friendly, professional customer service specialist for any industry \u2014 handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "customer-service.md"
-  },
-  {
-    "id": "customer-success-manager",
-    "name": "Customer Success Manager",
-    "category": "Product & Management",
-    "description": "Strategic customer success specialist for onboarding, health scoring, QBR facilitation, churn prevention, expansion identification, and renewal management \u2014 driving net revenue retention by turning customers into long-term partners who achieve measurable outcomes",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "customer-success-manager.md"
-  },
-  {
-    "id": "data-consolidation-agent",
-    "name": "Data Consolidation Agent",
-    "category": "Product & Management",
-    "description": "AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "data-consolidation-agent.md"
-  },
-  {
-    "id": "data-privacy-officer",
-    "name": "Data Privacy Officer",
-    "category": "Security",
-    "description": "Corporate data privacy specialist and DPO who builds GDPR, CCPA, and global privacy compliance programs \u2014 covering data mapping, privacy impact assessments, consent management, breach response, vendor due diligence, and regulatory engagement.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "data-privacy-officer.md"
-  },
-  {
     "id": "design-brand-guardian",
     "name": "Brand Guardian",
     "category": "Design & UX",
@@ -174,7 +14,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-brand-guardian.md"
   },
   {
@@ -190,7 +30,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-image-prompt-engineer.md"
   },
   {
@@ -206,7 +46,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-inclusive-visuals-specialist.md"
   },
   {
@@ -222,7 +62,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-persona-walkthrough.md"
   },
   {
@@ -238,7 +78,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-ui-designer.md"
   },
   {
@@ -254,7 +94,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-ux-architect.md"
   },
   {
@@ -270,7 +110,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-ux-researcher.md"
   },
   {
@@ -286,7 +126,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-visual-storyteller.md"
   },
   {
@@ -302,8 +142,72 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "design-whimsy-injector.md"
+  },
+  {
+    "id": "agentic-identity-trust",
+    "name": "Agentic Identity & Trust Architect",
+    "category": "Engineering",
+    "description": "Designs identity, authentication, and trust verification systems for autonomous AI agents operating in multi-agent environments. Ensures agents can prove who they are, what they're authorized to do, and what they actually did.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "agentic-identity-trust.md"
+  },
+  {
+    "id": "agents-orchestrator",
+    "name": "Agents Orchestrator",
+    "category": "Engineering",
+    "description": "Autonomous pipeline manager that orchestrates the entire development workflow. You are the leader of this process.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "agents-orchestrator.md"
+  },
+  {
+    "id": "backend-architect",
+    "name": "Backend Architecture Specialist",
+    "category": "Engineering",
+    "description": "Expert in high-throughput system design, database architecture, API specs, and microservices.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "backend-architect.md"
+  },
+  {
+    "id": "engineering-agentic-rag-architect",
+    "name": "Agentic RAG & Vector Search Architect",
+    "category": "Engineering",
+    "description": "Designs production RAG systems with hybrid vector search, chunking strategies, Cohere re-ranking, and context compression.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "engineering-agentic-rag-architect.md"
   },
   {
     "id": "engineering-ai-data-remediation-engineer",
@@ -318,7 +222,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-ai-data-remediation-engineer.md"
   },
   {
@@ -334,7 +238,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-ai-engineer.md"
   },
   {
@@ -350,7 +254,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-autonomous-optimization-architect.md"
   },
   {
@@ -366,7 +270,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-backend-architect.md"
   },
   {
@@ -382,7 +286,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-cms-developer.md"
   },
   {
@@ -398,7 +302,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-code-reviewer.md"
   },
   {
@@ -414,7 +318,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-codebase-onboarding-engineer.md"
   },
   {
@@ -430,7 +334,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-data-engineer.md"
   },
   {
@@ -446,7 +350,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-database-optimizer.md"
   },
   {
@@ -462,7 +366,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-devops-automator.md"
   },
   {
@@ -478,7 +382,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-drupal-shopping-cart.md"
   },
   {
@@ -494,7 +398,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-email-intelligence-engineer.md"
   },
   {
@@ -510,7 +414,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-embedded-firmware-engineer.md"
   },
   {
@@ -526,7 +430,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-feishu-integration-developer.md"
   },
   {
@@ -542,7 +446,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-filament-optimization-specialist.md"
   },
   {
@@ -558,7 +462,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-frontend-developer.md"
   },
   {
@@ -574,7 +478,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-git-workflow-master.md"
   },
   {
@@ -590,7 +494,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-incident-response-commander.md"
   },
   {
@@ -606,7 +510,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-it-service-manager.md"
   },
   {
@@ -622,7 +526,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-minimal-change-engineer.md"
   },
   {
@@ -638,7 +542,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-mobile-app-builder.md"
   },
   {
@@ -654,7 +558,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-multi-agent-systems-architect.md"
   },
   {
@@ -670,8 +574,24 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-network-engineer.md"
+  },
+  {
+    "id": "engineering-nextjs-fullstack-architect",
+    "name": "Next.js 15 Fullstack Architect",
+    "category": "Engineering",
+    "description": "Expert in Next.js 15 App Router, React Server Components (RSC), Server Actions, Suspense, and edge performance.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "engineering-nextjs-fullstack-architect.md"
   },
   {
     "id": "engineering-orgscript-engineer",
@@ -686,7 +606,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-orgscript-engineer.md"
   },
   {
@@ -702,7 +622,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-prompt-engineer.md"
   },
   {
@@ -718,7 +638,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-rapid-prototyper.md"
   },
   {
@@ -734,7 +654,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-senior-developer.md"
   },
   {
@@ -750,7 +670,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-software-architect.md"
   },
   {
@@ -766,7 +686,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-solidity-smart-contract-engineer.md"
   },
   {
@@ -782,7 +702,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-sre.md"
   },
   {
@@ -798,7 +718,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-technical-writer.md"
   },
   {
@@ -814,7 +734,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-voice-ai-integration-engineer.md"
   },
   {
@@ -830,7 +750,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-wechat-mini-program-developer.md"
   },
   {
@@ -846,7 +766,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "engineering-wordpress-shopping-cart.md"
   },
   {
@@ -862,7 +782,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "identity-graph-operator.md"
   },
   {
@@ -878,7 +798,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-aeo-foundations.md"
   },
   {
@@ -894,7 +814,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-agentic-search-optimizer.md"
   },
   {
@@ -910,7 +830,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-ai-citation-strategist.md"
   },
   {
@@ -926,7 +846,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-app-store-optimizer.md"
   },
   {
@@ -942,7 +862,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-baidu-seo-specialist.md"
   },
   {
@@ -958,7 +878,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-bilibili-content-strategist.md"
   },
   {
@@ -974,7 +894,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-book-co-author.md"
   },
   {
@@ -990,7 +910,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-carousel-growth-engine.md"
   },
   {
@@ -1006,7 +926,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-china-ecommerce-operator.md"
   },
   {
@@ -1022,7 +942,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-china-market-localization-strategist.md"
   },
   {
@@ -1038,8 +958,24 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-content-creator.md"
+  },
+  {
+    "id": "marketing-cro-landing-page-optimizer",
+    "name": "CRO & Landing Page Growth Optimizer",
+    "category": "Marketing & AEO",
+    "description": "Specialist in conversion rate optimization, headline copywriting, LIFT framework audits, and friction reduction.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "marketing-cro-landing-page-optimizer.md"
   },
   {
     "id": "marketing-cross-border-ecommerce",
@@ -1054,7 +990,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-cross-border-ecommerce.md"
   },
   {
@@ -1070,7 +1006,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-douyin-strategist.md"
   },
   {
@@ -1086,7 +1022,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-email-strategist.md"
   },
   {
@@ -1102,7 +1038,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-global-podcast-strategist.md"
   },
   {
@@ -1118,7 +1054,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-growth-hacker.md"
   },
   {
@@ -1134,7 +1070,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-instagram-curator.md"
   },
   {
@@ -1150,7 +1086,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-kuaishou-strategist.md"
   },
   {
@@ -1166,7 +1102,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-linkedin-content-creator.md"
   },
   {
@@ -1182,7 +1118,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-livestream-commerce-coach.md"
   },
   {
@@ -1198,7 +1134,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-multi-platform-publisher.md"
   },
   {
@@ -1214,7 +1150,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-podcast-strategist.md"
   },
   {
@@ -1230,7 +1166,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-pr-communications-manager.md"
   },
   {
@@ -1246,7 +1182,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-private-domain-operator.md"
   },
   {
@@ -1262,7 +1198,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-reddit-community-builder.md"
   },
   {
@@ -1278,7 +1214,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-seo-specialist.md"
   },
   {
@@ -1294,7 +1230,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-short-video-editing-coach.md"
   },
   {
@@ -1310,7 +1246,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-social-media-strategist.md"
   },
   {
@@ -1326,7 +1262,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-tiktok-strategist.md"
   },
   {
@@ -1342,7 +1278,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-twitter-engager.md"
   },
   {
@@ -1358,7 +1294,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-video-optimization-specialist.md"
   },
   {
@@ -1374,7 +1310,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-wechat-official-account.md"
   },
   {
@@ -1390,7 +1326,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-weibo-strategist.md"
   },
   {
@@ -1406,7 +1342,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-x-twitter-intelligence-analyst.md"
   },
   {
@@ -1422,7 +1358,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-xiaohongshu-specialist.md"
   },
   {
@@ -1438,8 +1374,120 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "marketing-zhihu-strategist.md"
+  },
+  {
+    "id": "automation-governance-architect",
+    "name": "Automation Governance Architect",
+    "category": "Product & Management",
+    "description": "Governance-first architect for business automations (n8n-first) who audits value, risk, and maintainability before implementation.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "automation-governance-architect.md"
+  },
+  {
+    "id": "business-strategist",
+    "name": "Business Strategist",
+    "category": "Product & Management",
+    "description": "Senior management consulting specialist for competitive analysis, market entry strategy, business model design, growth planning, organizational strategy, and strategic decision-making \u2014 translating complex market dynamics into clear, actionable strategies that create sustainable competitive advantage",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "business-strategist.md"
+  },
+  {
+    "id": "change-management-consultant",
+    "name": "Change Management Consultant",
+    "category": "Product & Management",
+    "description": "Expert change management specialist using ADKAR, Kotter, and Prosci frameworks to guide organizations through technology implementations, restructuring, culture transformation, and M&A integration \u2014 managing resistance, building adoption, and ensuring changes stick long after go-live",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "change-management-consultant.md"
+  },
+  {
+    "id": "chief-financial-officer",
+    "name": "Chief Financial Officer",
+    "category": "Product & Management",
+    "description": "Strategic finance executive who governs capital allocation, treasury operations, financial planning, M&A finance, investor relations, and board reporting \u2014 translating financial complexity into clear decisions that drive business performance and stakeholder confidence.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "chief-financial-officer.md"
+  },
+  {
+    "id": "customer-service",
+    "name": "Customer Service",
+    "category": "Product & Management",
+    "description": "Friendly, professional customer service specialist for any industry \u2014 handling inquiries, complaints, account support, FAQs, and seamless escalation with warmth, efficiency, and a genuine commitment to customer satisfaction",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "customer-service.md"
+  },
+  {
+    "id": "customer-success-manager",
+    "name": "Customer Success Manager",
+    "category": "Product & Management",
+    "description": "Strategic customer success specialist for onboarding, health scoring, QBR facilitation, churn prevention, expansion identification, and renewal management \u2014 driving net revenue retention by turning customers into long-term partners who achieve measurable outcomes",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "customer-success-manager.md"
+  },
+  {
+    "id": "data-consolidation-agent",
+    "name": "Data Consolidation Agent",
+    "category": "Product & Management",
+    "description": "AI agent that consolidates extracted sales data into live reporting dashboards with territory, rep, and pipeline summaries",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "data-consolidation-agent.md"
   },
   {
     "id": "operations-manager",
@@ -1454,7 +1502,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "operations-manager.md"
   },
   {
@@ -1470,7 +1518,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "product-behavioral-nudge-engine.md"
   },
   {
@@ -1486,7 +1534,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "product-feedback-synthesizer.md"
   },
   {
@@ -1502,7 +1550,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "product-manager.md"
   },
   {
@@ -1518,7 +1566,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "product-sprint-prioritizer.md"
   },
   {
@@ -1534,7 +1582,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "product-trend-researcher.md"
   },
   {
@@ -1550,7 +1598,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-management-experiment-tracker.md"
   },
   {
@@ -1566,7 +1614,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-management-jira-workflow-steward.md"
   },
   {
@@ -1582,7 +1630,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-management-meeting-notes-specialist.md"
   },
   {
@@ -1598,7 +1646,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-management-project-shepherd.md"
   },
   {
@@ -1614,7 +1662,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-management-studio-operations.md"
   },
   {
@@ -1630,7 +1678,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-management-studio-producer.md"
   },
   {
@@ -1646,168 +1694,8 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "project-manager-senior.md"
-  },
-  {
-    "id": "security-appsec-engineer",
-    "name": "Application Security Engineer",
-    "category": "Security",
-    "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-appsec-engineer.md"
-  },
-  {
-    "id": "security-architect",
-    "name": "Security Architect",
-    "category": "Security",
-    "description": "Expert security architect specializing in threat modeling, secure-by-design architecture, trust-boundary analysis, defense-in-depth, and risk-based security reviews across web, API, cloud-native, and distributed systems. Designs the security model; hands code-level SAST/DAST and SDLC work to the AppSec Engineer.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-architect.md"
-  },
-  {
-    "id": "security-blockchain-security-auditor",
-    "name": "Blockchain Security Auditor",
-    "category": "Security",
-    "description": "Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-blockchain-security-auditor.md"
-  },
-  {
-    "id": "security-cloud-security-architect",
-    "name": "Cloud Security Architect",
-    "category": "Security",
-    "description": "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-cloud-security-architect.md"
-  },
-  {
-    "id": "security-compliance-auditor",
-    "name": "Compliance Auditor",
-    "category": "Security",
-    "description": "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits \u2014 from readiness assessment through evidence collection to certification.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-compliance-auditor.md"
-  },
-  {
-    "id": "security-incident-responder",
-    "name": "Incident Responder",
-    "category": "Security",
-    "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-incident-responder.md"
-  },
-  {
-    "id": "security-penetration-tester",
-    "name": "Penetration Tester",
-    "category": "Security",
-    "description": "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-penetration-tester.md"
-  },
-  {
-    "id": "security-senior-secops",
-    "name": "Senior SecOps Engineer",
-    "category": "Security",
-    "description": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard \u2014 covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-senior-secops.md"
-  },
-  {
-    "id": "security-threat-detection-engineer",
-    "name": "Threat Detection Engineer",
-    "category": "Security",
-    "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-threat-detection-engineer.md"
-  },
-  {
-    "id": "security-threat-intelligence-analyst",
-    "name": "Threat Intelligence Analyst",
-    "category": "Security",
-    "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
-    "installed_tools": [
-      "Cursor",
-      "Claude Code",
-      "Antigravity",
-      "Windsurf",
-      "OpenCode",
-      "Aider"
-    ],
-    "rules_count": 15,
-    "file_name": "security-threat-intelligence-analyst.md"
   },
   {
     "id": "specialized-chief-of-staff",
@@ -1822,7 +1710,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "specialized-chief-of-staff.md"
   },
   {
@@ -1838,7 +1726,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "specialized-developer-advocate.md"
   },
   {
@@ -1854,7 +1742,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "specialized-document-generator.md"
   },
   {
@@ -1870,8 +1758,216 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "specialized-mcp-builder.md"
+  },
+  {
+    "id": "appsec-engineer",
+    "name": "Application Security Auditor",
+    "category": "Security",
+    "description": "Specializes in threat modeling, SAST/DAST verification, secret leak prevention, and OWASP compliance.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "appsec-engineer.md"
+  },
+  {
+    "id": "data-privacy-officer",
+    "name": "Data Privacy Officer",
+    "category": "Security",
+    "description": "Corporate data privacy specialist and DPO who builds GDPR, CCPA, and global privacy compliance programs \u2014 covering data mapping, privacy impact assessments, consent management, breach response, vendor due diligence, and regulatory engagement.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "data-privacy-officer.md"
+  },
+  {
+    "id": "security-appsec-engineer",
+    "name": "Application Security Engineer",
+    "category": "Security",
+    "description": "AppSec specialist who secures the software development lifecycle through threat modeling, secure code review, SAST/DAST integration, and developer security education that makes secure code the default.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-appsec-engineer.md"
+  },
+  {
+    "id": "security-architect",
+    "name": "Security Architect",
+    "category": "Security",
+    "description": "Expert security architect specializing in threat modeling, secure-by-design architecture, trust-boundary analysis, defense-in-depth, and risk-based security reviews across web, API, cloud-native, and distributed systems. Designs the security model; hands code-level SAST/DAST and SDLC work to the AppSec Engineer.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-architect.md"
+  },
+  {
+    "id": "security-blockchain-security-auditor",
+    "name": "Blockchain Security Auditor",
+    "category": "Security",
+    "description": "Expert smart contract security auditor specializing in vulnerability detection, formal verification, exploit analysis, and comprehensive audit report writing for DeFi protocols and blockchain applications.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-blockchain-security-auditor.md"
+  },
+  {
+    "id": "security-cloud-security-architect",
+    "name": "Cloud Security Architect",
+    "category": "Security",
+    "description": "Cloud-native security specialist designing zero trust architectures, implementing defense-in-depth across AWS, Azure, and GCP, and securing infrastructure-as-code pipelines from day one.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-cloud-security-architect.md"
+  },
+  {
+    "id": "security-compliance-auditor",
+    "name": "Compliance Auditor",
+    "category": "Security",
+    "description": "Expert technical compliance auditor specializing in SOC 2, ISO 27001, HIPAA, and PCI-DSS audits \u2014 from readiness assessment through evidence collection to certification.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-compliance-auditor.md"
+  },
+  {
+    "id": "security-incident-responder",
+    "name": "Incident Responder",
+    "category": "Security",
+    "description": "Digital forensics and incident response specialist who leads breach investigations, contains active threats, coordinates crisis response, and writes post-mortems that prevent recurrence.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-incident-responder.md"
+  },
+  {
+    "id": "security-penetration-tester",
+    "name": "Penetration Tester",
+    "category": "Security",
+    "description": "Offensive security specialist conducting authorized penetration tests, red team operations, and vulnerability assessments across networks, web applications, and cloud infrastructure.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-penetration-tester.md"
+  },
+  {
+    "id": "security-senior-secops",
+    "name": "Senior SecOps Engineer",
+    "category": "Security",
+    "description": "Defensive application security specialist who scans every code submission for secrets and sensitive data exposure before anything else, then implements or audits security controls following the organization's security standard \u2014 covering authentication, authorization, tokens, cookies, HTTP headers, CORS, rate limiting, CSP, secrets management, input validation, and secure logging.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-senior-secops.md"
+  },
+  {
+    "id": "security-solana-smart-contract-auditor",
+    "name": "Solana Anchor Smart Contract Auditor",
+    "category": "Security",
+    "description": "Specialist in Solana Rust Anchor smart contract vulnerability detection, account validation, and reentrancy audits.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-solana-smart-contract-auditor.md"
+  },
+  {
+    "id": "security-threat-detection-engineer",
+    "name": "Threat Detection Engineer",
+    "category": "Security",
+    "description": "Expert detection engineer specializing in SIEM rule development, MITRE ATT&CK coverage mapping, threat hunting, alert tuning, and detection-as-code pipelines for security operations teams.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-threat-detection-engineer.md"
+  },
+  {
+    "id": "security-threat-intelligence-analyst",
+    "name": "Threat Intelligence Analyst",
+    "category": "Security",
+    "description": "Cyber threat intelligence specialist who tracks adversary groups, maps attack campaigns to MITRE ATT&CK, produces actionable intelligence reports, and builds detection rules that catch real threats.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "security-threat-intelligence-analyst.md"
   },
   {
     "id": "testing-accessibility-auditor",
@@ -1886,7 +1982,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-accessibility-auditor.md"
   },
   {
@@ -1902,7 +1998,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-api-tester.md"
   },
   {
@@ -1918,7 +2014,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-evidence-collector.md"
   },
   {
@@ -1934,8 +2030,24 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-performance-benchmarker.md"
+  },
+  {
+    "id": "testing-playwright-e2e-automation-engineer",
+    "name": "Playwright E2E & Visual Regression Engineer",
+    "category": "Testing & QA",
+    "description": "Generates bulletproof Playwright E2E automation suites, visual regression tests, and CI/CD web test pipelines.",
+    "installed_tools": [
+      "Cursor",
+      "Claude Code",
+      "Antigravity",
+      "Windsurf",
+      "OpenCode",
+      "Aider"
+    ],
+    "rules_count": 18,
+    "file_name": "testing-playwright-e2e-automation-engineer.md"
   },
   {
     "id": "testing-reality-checker",
@@ -1950,7 +2062,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-reality-checker.md"
   },
   {
@@ -1966,7 +2078,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-test-results-analyzer.md"
   },
   {
@@ -1982,7 +2094,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-tool-evaluator.md"
   },
   {
@@ -1998,7 +2110,7 @@ export const allSubagentsCatalog: Persona[] = [
       "OpenCode",
       "Aider"
     ],
-    "rules_count": 15,
+    "rules_count": 18,
     "file_name": "testing-workflow-optimizer.md"
   }
 ];
